@@ -4,7 +4,7 @@ A NodeJS Users API with Express and SQLite3.
 
 ## Demo Setup
 
-1. Clone the repository with git clone https://github.com/retsofcm/rpi-users-api.gitkey.
+1. Clone the repository with git clone https://github.com/retsofcm/rpi-users-api.
 2. Install dependencies with npm install.
 3. Run the project with npm start.
 
