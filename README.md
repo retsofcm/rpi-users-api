@@ -62,7 +62,7 @@ The user ID can be found by submitting a GET request to '/users' and selecting t
 
 ## Edit existing user with PATCH
 
-Submit a PATCH request to '/users/{USER_ID}' with new details in JSON format. Only one value can be changed with each request.
+Submit a PATCH request to '/users/:id' with new details in JSON format. Only one value can be changed with each request.
 
     {
         "propName": "email",
@@ -71,8 +71,8 @@ Submit a PATCH request to '/users/{USER_ID}' with new details in JSON format. On
 
 ## Get Auth token
 
-The bearer token can be found by submitting a GET request to 'users/{USER_ID}' and selecting the token.
+The bearer token can be found by submitting a GET request to 'users/:id' and selecting the token.
 
 ## Delete user
 
-Submit a DELETE request to 'users/{USER_ID}' with a bearer token in the header.
+Submit a DELETE request to 'users/:id' with a bearer token in the header.
